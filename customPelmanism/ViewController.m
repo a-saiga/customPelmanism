@@ -9,6 +9,12 @@
 #import "ViewController.h"
 
 #define CARDS 6
+#define PLAY_WIDTH 300
+#define PLAY_HEIGHT 500
+
+const float kCardWidth = 640 * 0.1;
+const float kCardHeight = 900 * 0.1;
+
 
 @interface ViewController ()
 {
@@ -51,6 +57,7 @@
         Flipped
     };
     
+    UIView *playView;
 }
 
 
@@ -68,9 +75,7 @@
     cHeight = self.view.frame.size.height;
     playWidth = cWidth - 10;
     playHeight = cHeight - 40;
-    cardWidth = (playWidth - 30)/2;
-    cardHeight = (playHeight - 90)/6;
-    
+
     //initialization
     stat = Front;
     tCount = 0;
@@ -89,17 +94,27 @@
     
     NSLog(@"aaa");
     
+    playView = [[UIView alloc]initWithFrame:CGRectMake((cWidth-PLAY_WIDTH)/2, (cHeight-PLAY_HEIGHT)/2, PLAY_WIDTH, PLAY_HEIGHT)];
+    playView.backgroundColor = [UIColor grayColor];
+    [self.view addSubview:playView];
+    
     //generating cards
-    for (int i = 0; i<CARDS; i++){
+    for (int i = 0 ; i<CARDS; i++){
 
-        UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake((cWidth-cardWidth)/2, (10+cardHeight)*i, cardWidth, cardHeight)];
+        UIButton *btn = [[UIButton alloc]initWithFrame:
+                         CGRectMake((kCardWidth+20)*(i%2), (10+kCardHeight)*(i/2), kCardWidth, kCardHeight)];
         [btn setBackgroundImage:frontImg forState:UIControlStateNormal];
         [btn addTarget:self action:@selector(tapBtn:) forControlEvents:UIControlEventTouchUpInside];
         
         btn.tag = i;
-        NSDictionary *cardStatus = @{@"cName":imageNames[i][@"cName"],@"state":@"stat", @"tapCount":@"tCount", @"img":imageNames[i][@"imgName"], @"btn":btn};
+        NSDictionary *cardStatus = @{@"cName":imageNames[i][@"cName"],
+                                     @"state":@"stat",
+                                     @"tapCount":@"tCount",
+                                     @"img":imageNames[i][@"imgName"],
+                                     @"btn":btn};
         [cardStatuses addObject:cardStatus];
-        [self.view addSubview:btn];
+        [playView addSubview:btn];
+        //[self.view addSubview:btn];
     }
     
 }
@@ -119,13 +134,6 @@
 }
 -(IBAction)tapBtn:(UIButton *)btn
 {
-    /* NSString *title = @"alert";
-     NSString *msg = @"message";
-     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:title message:msg delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK",nil];
-     [alert show];*/
-    
-    
-    
     cardImage = cardStatuses[btn.tag][@"img"];
     flippedImg = [UIImage imageNamed:cardImage];
     [btn setBackgroundImage:flippedImg forState:UIControlStateNormal];
