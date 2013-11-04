@@ -21,6 +21,26 @@
 		3129C8A0180FD44200235FDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3129C882180FD44200235FDE /* UIKit.framework */; };
 		3129C8A8180FD44200235FDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8A6180FD44200235FDE /* InfoPlist.strings */; };
 		3129C8AA180FD44200235FDE /* customPelmanismTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3129C8A9180FD44200235FDE /* customPelmanismTests.m */; };
+		3129C8C9181992C000235FDE /* smile_eri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8B7181992BF00235FDE /* smile_eri.jpg */; };
+		3129C8CA181992C000235FDE /* smile_eri_kakusei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8B8181992BF00235FDE /* smile_eri_kakusei.jpg */; };
+		3129C8CB181992C000235FDE /* smile_hanayo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8B9181992BF00235FDE /* smile_hanayo.jpg */; };
+		3129C8CC181992C000235FDE /* smile_hanayo_kakusei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8BA181992BF00235FDE /* smile_hanayo_kakusei.jpg */; };
+		3129C8CD181992C000235FDE /* smile_honoka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8BB181992BF00235FDE /* smile_honoka.jpg */; };
+		3129C8CE181992C000235FDE /* smile_honoka_kakusei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8BC181992BF00235FDE /* smile_honoka_kakusei.jpg */; };
+		3129C8CF181992C000235FDE /* smile_kotori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8BD181992BF00235FDE /* smile_kotori.jpg */; };
+		3129C8D0181992C000235FDE /* smile_kotori_kakusei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8BE181992BF00235FDE /* smile_kotori_kakusei.jpg */; };
+		3129C8D1181992C000235FDE /* smile_maki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8BF181992BF00235FDE /* smile_maki.jpg */; };
+		3129C8D2181992C000235FDE /* smile_maki_kakusei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8C0181992BF00235FDE /* smile_maki_kakusei.jpg */; };
+		3129C8D3181992C000235FDE /* smile_nico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8C1181992BF00235FDE /* smile_nico.jpg */; };
+		3129C8D4181992C000235FDE /* smile_nico_kakusei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8C2181992BF00235FDE /* smile_nico_kakusei.jpg */; };
+		3129C8D5181992C000235FDE /* smile_nozomi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8C3181992BF00235FDE /* smile_nozomi.jpg */; };
+		3129C8D6181992C000235FDE /* smile_nozomi_kakusei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8C4181992C000235FDE /* smile_nozomi_kakusei.jpg */; };
+		3129C8D7181992C000235FDE /* smile_rin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8C5181992C000235FDE /* smile_rin.jpg */; };
+		3129C8D8181992C000235FDE /* smile_rin_kakusei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8C6181992C000235FDE /* smile_rin_kakusei.jpg */; };
+		3129C8D9181992C000235FDE /* smile_umi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8C7181992C000235FDE /* smile_umi.jpg */; };
+		3129C8DA181992C000235FDE /* smile_umi_kakusei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8C8181992C000235FDE /* smile_umi_kakusei.jpg */; };
+		3129C8DC181995C500235FDE /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3129C8DB181995C500235FDE /* logo.jpg */; };
+		319E60C11819991C0073B2F2 /* omote.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 319E60C01819991C0073B2F2 /* omote.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +73,26 @@
 		3129C8A5180FD44200235FDE /* customPelmanismTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "customPelmanismTests-Info.plist"; sourceTree = "<group>"; };
 		3129C8A7180FD44200235FDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3129C8A9180FD44200235FDE /* customPelmanismTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customPelmanismTests.m; sourceTree = "<group>"; };
+		3129C8B7181992BF00235FDE /* smile_eri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_eri.jpg; sourceTree = "<group>"; };
+		3129C8B8181992BF00235FDE /* smile_eri_kakusei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_eri_kakusei.jpg; sourceTree = "<group>"; };
+		3129C8B9181992BF00235FDE /* smile_hanayo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_hanayo.jpg; sourceTree = "<group>"; };
+		3129C8BA181992BF00235FDE /* smile_hanayo_kakusei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_hanayo_kakusei.jpg; sourceTree = "<group>"; };
+		3129C8BB181992BF00235FDE /* smile_honoka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_honoka.jpg; sourceTree = "<group>"; };
+		3129C8BC181992BF00235FDE /* smile_honoka_kakusei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_honoka_kakusei.jpg; sourceTree = "<group>"; };
+		3129C8BD181992BF00235FDE /* smile_kotori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_kotori.jpg; sourceTree = "<group>"; };
+		3129C8BE181992BF00235FDE /* smile_kotori_kakusei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_kotori_kakusei.jpg; sourceTree = "<group>"; };
+		3129C8BF181992BF00235FDE /* smile_maki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_maki.jpg; sourceTree = "<group>"; };
+		3129C8C0181992BF00235FDE /* smile_maki_kakusei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_maki_kakusei.jpg; sourceTree = "<group>"; };
+		3129C8C1181992BF00235FDE /* smile_nico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_nico.jpg; sourceTree = "<group>"; };
+		3129C8C2181992BF00235FDE /* smile_nico_kakusei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_nico_kakusei.jpg; sourceTree = "<group>"; };
+		3129C8C3181992BF00235FDE /* smile_nozomi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_nozomi.jpg; sourceTree = "<group>"; };
+		3129C8C4181992C000235FDE /* smile_nozomi_kakusei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_nozomi_kakusei.jpg; sourceTree = "<group>"; };
+		3129C8C5181992C000235FDE /* smile_rin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_rin.jpg; sourceTree = "<group>"; };
+		3129C8C6181992C000235FDE /* smile_rin_kakusei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_rin_kakusei.jpg; sourceTree = "<group>"; };
+		3129C8C7181992C000235FDE /* smile_umi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_umi.jpg; sourceTree = "<group>"; };
+		3129C8C8181992C000235FDE /* smile_umi_kakusei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smile_umi_kakusei.jpg; sourceTree = "<group>"; };
+		3129C8DB181995C500235FDE /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		319E60C01819991C0073B2F2 /* omote.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = omote.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +152,7 @@
 		3129C884180FD44200235FDE /* customPelmanism */ = {
 			isa = PBXGroup;
 			children = (
+				3129C8B6181992BF00235FDE /* cards */,
 				3129C88D180FD44200235FDE /* AppDelegate.h */,
 				3129C88E180FD44200235FDE /* AppDelegate.m */,
 				3129C890180FD44200235FDE /* Main.storyboard */,
@@ -150,6 +191,33 @@
 				3129C8A6180FD44200235FDE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3129C8B6181992BF00235FDE /* cards */ = {
+			isa = PBXGroup;
+			children = (
+				319E60C01819991C0073B2F2 /* omote.jpg */,
+				3129C8DB181995C500235FDE /* logo.jpg */,
+				3129C8B7181992BF00235FDE /* smile_eri.jpg */,
+				3129C8B8181992BF00235FDE /* smile_eri_kakusei.jpg */,
+				3129C8B9181992BF00235FDE /* smile_hanayo.jpg */,
+				3129C8BA181992BF00235FDE /* smile_hanayo_kakusei.jpg */,
+				3129C8BB181992BF00235FDE /* smile_honoka.jpg */,
+				3129C8BC181992BF00235FDE /* smile_honoka_kakusei.jpg */,
+				3129C8BD181992BF00235FDE /* smile_kotori.jpg */,
+				3129C8BE181992BF00235FDE /* smile_kotori_kakusei.jpg */,
+				3129C8BF181992BF00235FDE /* smile_maki.jpg */,
+				3129C8C0181992BF00235FDE /* smile_maki_kakusei.jpg */,
+				3129C8C1181992BF00235FDE /* smile_nico.jpg */,
+				3129C8C2181992BF00235FDE /* smile_nico_kakusei.jpg */,
+				3129C8C3181992BF00235FDE /* smile_nozomi.jpg */,
+				3129C8C4181992C000235FDE /* smile_nozomi_kakusei.jpg */,
+				3129C8C5181992C000235FDE /* smile_rin.jpg */,
+				3129C8C6181992C000235FDE /* smile_rin_kakusei.jpg */,
+				3129C8C7181992C000235FDE /* smile_umi.jpg */,
+				3129C8C8181992C000235FDE /* smile_umi_kakusei.jpg */,
+			);
+			path = cards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +296,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3129C8D1181992C000235FDE /* smile_maki.jpg in Resources */,
+				3129C8D3181992C000235FDE /* smile_nico.jpg in Resources */,
+				3129C8DC181995C500235FDE /* logo.jpg in Resources */,
+				3129C8CD181992C000235FDE /* smile_honoka.jpg in Resources */,
 				3129C897180FD44200235FDE /* Images.xcassets in Resources */,
+				3129C8D5181992C000235FDE /* smile_nozomi.jpg in Resources */,
+				319E60C11819991C0073B2F2 /* omote.jpg in Resources */,
+				3129C8D6181992C000235FDE /* smile_nozomi_kakusei.jpg in Resources */,
+				3129C8C9181992C000235FDE /* smile_eri.jpg in Resources */,
+				3129C8CC181992C000235FDE /* smile_hanayo_kakusei.jpg in Resources */,
+				3129C8D7181992C000235FDE /* smile_rin.jpg in Resources */,
+				3129C8CF181992C000235FDE /* smile_kotori.jpg in Resources */,
+				3129C8CB181992C000235FDE /* smile_hanayo.jpg in Resources */,
+				3129C8D0181992C000235FDE /* smile_kotori_kakusei.jpg in Resources */,
 				3129C889180FD44200235FDE /* InfoPlist.strings in Resources */,
+				3129C8DA181992C000235FDE /* smile_umi_kakusei.jpg in Resources */,
+				3129C8CA181992C000235FDE /* smile_eri_kakusei.jpg in Resources */,
 				3129C892180FD44200235FDE /* Main.storyboard in Resources */,
+				3129C8CE181992C000235FDE /* smile_honoka_kakusei.jpg in Resources */,
+				3129C8D9181992C000235FDE /* smile_umi.jpg in Resources */,
+				3129C8D2181992C000235FDE /* smile_maki_kakusei.jpg in Resources */,
+				3129C8D8181992C000235FDE /* smile_rin_kakusei.jpg in Resources */,
+				3129C8D4181992C000235FDE /* smile_nico_kakusei.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +548,7 @@
 				3129C8AF180FD44200235FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3129C8B0180FD44200235FDE /* Build configuration list for PBXNativeTarget "customPelmanismTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +557,7 @@
 				3129C8B2180FD44200235FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
